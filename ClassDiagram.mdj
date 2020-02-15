@@ -3138,8 +3138,8 @@
 										"$ref": "AAAAAAFwSIxuMrcUsFE="
 									},
 									"font": "Arial;13;0",
-									"left": 127,
-									"top": 339,
+									"left": 294,
+									"top": 364,
 									"width": 43.01171875,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -3161,8 +3161,8 @@
 									},
 									"visible": null,
 									"font": "Arial;13;0",
-									"left": 133,
-									"top": 338,
+									"left": 304,
+									"top": 375,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -3182,8 +3182,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 177,
-									"top": 342,
+									"left": 336,
+									"top": 343,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -3203,8 +3203,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 146,
-									"top": 366,
+									"left": 361,
+									"top": 410,
 									"height": 13,
 									"alpha": 0.5235987755982988,
 									"distance": 30,
@@ -3224,8 +3224,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 133,
-									"top": 362,
+									"left": 351,
+									"top": 418,
 									"height": 13,
 									"alpha": 0.7853981633974483,
 									"distance": 40,
@@ -3244,8 +3244,8 @@
 										"$ref": "AAAAAAFwSIxuMrcV9hI="
 									},
 									"font": "Arial;13;0",
-									"left": 170,
-									"top": 372,
+									"left": 381,
+									"top": 393,
 									"width": 7.22998046875,
 									"height": 13,
 									"alpha": -0.5235987755982988,
@@ -3267,8 +3267,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 150,
-									"top": 314,
+									"left": 269,
+									"top": 318,
 									"height": 13,
 									"alpha": -0.5235987755982988,
 									"distance": 30,
@@ -3287,8 +3287,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 136,
-									"top": 316,
+									"left": 262,
+									"top": 329,
 									"height": 13,
 									"alpha": -0.7853981633974483,
 									"distance": 40,
@@ -3306,8 +3306,8 @@
 										"$ref": "AAAAAAFwSIxuMrcWy4s="
 									},
 									"font": "Arial;13;0",
-									"left": 169,
-									"top": 312,
+									"left": 277,
+									"top": 296,
 									"width": 19.5126953125,
 									"height": 13,
 									"alpha": 0.5235987755982988,
@@ -3351,10 +3351,10 @@
 								"$ref": "AAAAAAFwSF1c4vzA/2A="
 							},
 							"tail": {
-								"$ref": "AAAAAAFwSFgWOvwf9/A="
+								"$ref": "AAAAAAFwSG3keLAJ3xI="
 							},
 							"lineStyle": 1,
-							"points": "160:399;167:296",
+							"points": "391:424;262:296",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAFwSIxuM7cZPgE="
@@ -3740,7 +3740,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFwSEFwo/vzwac="
 							},
-							"name": "String name"
+							"name": "String name",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -3748,7 +3749,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFwSEFwo/vzwac="
 							},
-							"name": "String description"
+							"name": "String description",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -3756,7 +3758,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFwSEFwo/vzwac="
 							},
-							"name": "ClsCoordinate coordinate"
+							"name": "ClsCoordinate coordinate",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -3773,7 +3776,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFwSEFwo/vzwac="
 							},
-							"name": "boolean favourite"
+							"name": "boolean favourite",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -3781,7 +3785,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFwSEFwo/vzwac="
 							},
-							"name": "Date dateOfCreation"
+							"name": "Date dateOfCreation",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -3789,7 +3794,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFwSEFwo/vzwac="
 							},
-							"name": "String userNickName"
+							"name": "String userNickName",
+							"type": ""
 						}
 					],
 					"operations": [
@@ -4026,7 +4032,7 @@
 									"$ref": "AAAAAAFwSIxuMrcUsFE="
 								},
 								"reference": {
-									"$ref": "AAAAAAFwSFgWOfwdjqA="
+									"$ref": "AAAAAAFwSG3keLAHdVw="
 								},
 								"multiplicity": "1"
 							},
@@ -4300,7 +4306,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFwSF1c4vy+CHY="
 							},
-							"name": "int routeId"
+							"name": "int routeId",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -4308,7 +4315,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFwSF1c4vy+CHY="
 							},
-							"name": "ClsCoordinate coordinate"
+							"name": "ClsCoordinate coordinate",
+							"type": ""
 						}
 					],
 					"operations": [
@@ -4493,7 +4501,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFwSG3keLAHdVw="
 							},
-							"name": "int id"
+							"name": "int id",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -4501,7 +4510,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFwSG3keLAHdVw="
 							},
-							"name": "String name"
+							"name": "String name",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -4509,7 +4519,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFwSG3keLAHdVw="
 							},
-							"name": "String description"
+							"name": "String description",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -4517,7 +4528,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFwSG3keLAHdVw="
 							},
-							"name": "boolean favourite"
+							"name": "boolean favourite",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -4525,7 +4537,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFwSG3keLAHdVw="
 							},
-							"name": "Date dateOfCreation"
+							"name": "Date dateOfCreation",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -4533,7 +4546,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFwSG3keLAHdVw="
 							},
-							"name": "String UserNickName"
+							"name": "String UserNickName",
+							"type": ""
 						}
 					],
 					"operations": [
@@ -4704,7 +4718,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFwSHSgbLC9i/I="
 							},
-							"name": "String localizationType"
+							"name": "String localizationType",
+							"type": ""
 						}
 					]
 				}
