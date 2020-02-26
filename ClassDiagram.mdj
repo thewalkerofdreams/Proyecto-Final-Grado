@@ -408,7 +408,7 @@
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
-											"text": "+String userNickNamePropietary",
+											"text": "+ClsUser userPropietary",
 											"horizontalAlignment": 0,
 											"verticalAlignment": 5,
 											"wordWrap": false
@@ -869,7 +869,7 @@
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
-											"text": "+String getUserNickNamePropietary()",
+											"text": "+String getUserPropietary()",
 											"horizontalAlignment": 0,
 											"verticalAlignment": 5,
 											"wordWrap": false
@@ -898,7 +898,7 @@
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
-											"text": "+void setUserNickNamePropietary(String userNickNamePropietary)",
+											"text": "+void setUserPropietary(String userPropietary)",
 											"horizontalAlignment": 0,
 											"verticalAlignment": 5,
 											"wordWrap": false
@@ -3084,7 +3084,7 @@
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
-											"text": "+String UserNickName",
+											"text": "+ClsUser user",
 											"horizontalAlignment": 0,
 											"verticalAlignment": 5,
 											"wordWrap": false
@@ -3429,7 +3429,7 @@
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
-											"text": "+String getUserNickName()",
+											"text": "+ClsUser getUser()",
 											"horizontalAlignment": 0,
 											"verticalAlignment": 5,
 											"wordWrap": false
@@ -3458,7 +3458,7 @@
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
-											"text": "+void setUserNickName(String userNickName)",
+											"text": "+void setUser(Clsuser user)",
 											"horizontalAlignment": 0,
 											"verticalAlignment": 5,
 											"wordWrap": false
@@ -7744,7 +7744,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFwSEFwo/vzwac="
 							},
-							"name": "String userNickNamePropietary",
+							"name": "ClsUser userPropietary",
 							"visibility": "public",
 							"isStatic": false,
 							"isLeaf": false,
@@ -8068,7 +8068,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFwSEFwo/vzwac="
 							},
-							"name": "String getUserNickNamePropietary",
+							"name": "String getUserPropietary",
 							"visibility": "public",
 							"isStatic": false,
 							"isLeaf": false,
@@ -8082,7 +8082,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFwSEFwo/vzwac="
 							},
-							"name": "void setUserNickNamePropietary",
+							"name": "void setUserPropietary",
 							"visibility": "public",
 							"isStatic": false,
 							"isLeaf": false,
@@ -8093,7 +8093,7 @@
 									"_parent": {
 										"$ref": "AAAAAAFwfHGXJFlBWSo="
 									},
-									"name": "String userNickNamePropietary",
+									"name": "String userPropietary",
 									"visibility": "public",
 									"isStatic": false,
 									"isLeaf": false,
@@ -9215,7 +9215,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFwSG3keLAHdVw="
 							},
-							"name": "String UserNickName",
+							"name": "ClsUser user",
 							"visibility": "public",
 							"isStatic": false,
 							"isLeaf": false,
@@ -9447,7 +9447,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFwSG3keLAHdVw="
 							},
-							"name": "String getUserNickName",
+							"name": "ClsUser getUser",
 							"visibility": "public",
 							"isStatic": false,
 							"isLeaf": false,
@@ -9461,7 +9461,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFwSG3keLAHdVw="
 							},
-							"name": "void setUserNickName",
+							"name": "void setUser",
 							"visibility": "public",
 							"isStatic": false,
 							"isLeaf": false,
@@ -9472,7 +9472,7 @@
 									"_parent": {
 										"$ref": "AAAAAAFwSIqe87W2qlc="
 									},
-									"name": "String userNickName",
+									"name": "Clsuser user",
 									"visibility": "public",
 									"isStatic": false,
 									"isLeaf": false,
@@ -9563,6 +9563,7 @@
 							"visibility": "public",
 							"isStatic": false,
 							"isLeaf": false,
+							"type": "",
 							"isReadOnly": false,
 							"isOrdered": false,
 							"isUnique": false,
@@ -9671,6 +9672,7 @@
 									"visibility": "public",
 									"isStatic": false,
 									"isLeaf": false,
+									"type": "",
 									"isReadOnly": false,
 									"isOrdered": false,
 									"isUnique": false,
