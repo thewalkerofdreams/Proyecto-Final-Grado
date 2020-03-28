@@ -135,7 +135,7 @@
 											"top": 342,
 											"width": 478.69580078125,
 											"height": 13,
-											"text": "+int id",
+											"text": "+String localizationPointId",
 											"horizontalAlignment": 0
 										},
 										{
@@ -220,7 +220,7 @@
 											"top": 417,
 											"width": 478.69580078125,
 											"height": 13,
-											"text": "+boolean favourite",
+											"text": "+boolean shared",
 											"horizontalAlignment": 0
 										},
 										{
@@ -254,7 +254,24 @@
 											"top": 447,
 											"width": 478.69580078125,
 											"height": 13,
-											"text": "+ClsUser userPropietary",
+											"text": "+String emailCreator",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAFxIXeVI+jNQYI=",
+											"_parent": {
+												"$ref": "AAAAAAFwSEFwpPv7JKo="
+											},
+											"model": {
+												"$ref": "AAAAAAFxIXeU8OjKxuo="
+											},
+											"font": "Arial;13;0",
+											"left": 853,
+											"top": 462,
+											"width": 478.69580078125,
+											"height": 13,
+											"text": "+String index",
 											"horizontalAlignment": 0
 										}
 									],
@@ -262,7 +279,7 @@
 									"left": 848,
 									"top": 337,
 									"width": 488.69580078125,
-									"height": 128
+									"height": 143
 								},
 								{
 									"_type": "UMLOperationCompartmentView",
@@ -285,10 +302,10 @@
 											},
 											"font": "Arial;13;0",
 											"left": 853,
-											"top": 470,
+											"top": 485,
 											"width": 478.69580078125,
 											"height": 13,
-											"text": "+int getId()",
+											"text": "+String getLocalizationPointId()",
 											"horizontalAlignment": 0
 										},
 										{
@@ -302,10 +319,10 @@
 											},
 											"font": "Arial;13;0",
 											"left": 853,
-											"top": 485,
+											"top": 500,
 											"width": 478.69580078125,
 											"height": 13,
-											"text": "+void setId(int id)",
+											"text": "+void setLocalizationPointId(String id)",
 											"horizontalAlignment": 0
 										},
 										{
@@ -319,7 +336,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 853,
-											"top": 500,
+											"top": 515,
 											"width": 478.69580078125,
 											"height": 13,
 											"text": "+String getName()",
@@ -336,7 +353,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 853,
-											"top": 515,
+											"top": 530,
 											"width": 478.69580078125,
 											"height": 13,
 											"text": "+void setName(String name)",
@@ -353,7 +370,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 853,
-											"top": 530,
+											"top": 545,
 											"width": 478.69580078125,
 											"height": 13,
 											"text": "+String getDescription()",
@@ -370,7 +387,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 853,
-											"top": 545,
+											"top": 560,
 											"width": 478.69580078125,
 											"height": 13,
 											"text": "+void setDescription(String description)",
@@ -387,7 +404,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 853,
-											"top": 560,
+											"top": 575,
 											"width": 478.69580078125,
 											"height": 13,
 											"text": "+ClsCoordinate getCoordinate()",
@@ -404,7 +421,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 853,
-											"top": 575,
+											"top": 590,
 											"width": 478.69580078125,
 											"height": 13,
 											"text": "+void setCoordinate(ClsCoordinate coordinate)",
@@ -421,7 +438,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 853,
-											"top": 590,
+											"top": 605,
 											"width": 478.69580078125,
 											"height": 13,
 											"text": "+ArrayList<EnumLocalizationType>  getLocalizationTypes()()",
@@ -438,7 +455,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 853,
-											"top": 605,
+											"top": 620,
 											"width": 478.69580078125,
 											"height": 13,
 											"text": "+void setLocalizationTypes(ArrayList<EnumLocalizationType>  localizationTypes)()",
@@ -455,10 +472,10 @@
 											},
 											"font": "Arial;13;0",
 											"left": 853,
-											"top": 620,
+											"top": 635,
 											"width": 478.69580078125,
 											"height": 13,
-											"text": "+boolean getFavourite()",
+											"text": "+boolean getShared()",
 											"horizontalAlignment": 0
 										},
 										{
@@ -472,10 +489,10 @@
 											},
 											"font": "Arial;13;0",
 											"left": 853,
-											"top": 635,
+											"top": 650,
 											"width": 478.69580078125,
 											"height": 13,
-											"text": "+void setFavourite(boolean favourite)",
+											"text": "+void setShared(boolean shared)",
 											"horizontalAlignment": 0
 										},
 										{
@@ -489,7 +506,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 853,
-											"top": 650,
+											"top": 665,
 											"width": 478.69580078125,
 											"height": 13,
 											"text": "+Date getDateOfCreation()",
@@ -506,7 +523,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 853,
-											"top": 665,
+											"top": 680,
 											"width": 478.69580078125,
 											"height": 13,
 											"text": "+void setDateOfCreation(Date dateOfCreation)",
@@ -523,10 +540,10 @@
 											},
 											"font": "Arial;13;0",
 											"left": 853,
-											"top": 680,
+											"top": 695,
 											"width": 478.69580078125,
 											"height": 13,
-											"text": "+String getUserPropietary()",
+											"text": "+String getEmailCreator()",
 											"horizontalAlignment": 0
 										},
 										{
@@ -540,18 +557,52 @@
 											},
 											"font": "Arial;13;0",
 											"left": 853,
-											"top": 695,
+											"top": 710,
 											"width": 478.69580078125,
 											"height": 13,
-											"text": "+void setUserPropietary(String userPropietary)",
+											"text": "+void setEmailCreator(String emailCreator)",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAFxIXfJpOnlPk8=",
+											"_parent": {
+												"$ref": "AAAAAAFwSEFwpfv8Tbs="
+											},
+											"model": {
+												"$ref": "AAAAAAFxIXfJe+ni1tM="
+											},
+											"font": "Arial;13;0",
+											"left": 853,
+											"top": 725,
+											"width": 478.69580078125,
+											"height": 13,
+											"text": "+String getIndex()",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAFxIXfygOq+gbg=",
+											"_parent": {
+												"$ref": "AAAAAAFwSEFwpfv8Tbs="
+											},
+											"model": {
+												"$ref": "AAAAAAFxIXfyW+q7FTA="
+											},
+											"font": "Arial;13;0",
+											"left": 853,
+											"top": 740,
+											"width": 478.69580078125,
+											"height": 13,
+											"text": "+void setIndex(String index)",
 											"horizontalAlignment": 0
 										}
 									],
 									"font": "Arial;13;0",
 									"left": 848,
-									"top": 465,
+									"top": 480,
 									"width": 488.69580078125,
-									"height": 248
+									"height": 278
 								},
 								{
 									"_type": "UMLReceptionCompartmentView",
@@ -591,7 +642,7 @@
 							"left": 848,
 							"top": 312,
 							"width": 488.69580078125,
-							"height": 401,
+							"height": 446,
 							"nameCompartment": {
 								"$ref": "AAAAAAFwSEFwpPv2ivw="
 							},
@@ -711,6 +762,23 @@
 									"subViews": [
 										{
 											"_type": "UMLAttributeView",
+											"_id": "AAAAAAFxIW2tu8uV7KA=",
+											"_parent": {
+												"$ref": "AAAAAAFwSFgWOvwlJS4="
+											},
+											"model": {
+												"$ref": "AAAAAAFxIW2tgsuSvGo="
+											},
+											"font": "Arial;13;0",
+											"left": 517,
+											"top": 774,
+											"width": 216.37255859375,
+											"height": 13,
+											"text": "+String userId",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
 											"_id": "AAAAAAFwSFhL5vxKTL8=",
 											"_parent": {
 												"$ref": "AAAAAAFwSFgWOvwlJS4="
@@ -720,7 +788,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 517,
-											"top": 774,
+											"top": 789,
 											"width": 216.37255859375,
 											"height": 13,
 											"text": "+String nickName",
@@ -737,7 +805,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 517,
-											"top": 789,
+											"top": 804,
 											"width": 216.37255859375,
 											"height": 13,
 											"text": "+String password",
@@ -754,7 +822,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 517,
-											"top": 804,
+											"top": 819,
 											"width": 216.37255859375,
 											"height": 13,
 											"text": "+String email",
@@ -765,7 +833,7 @@
 									"left": 512,
 									"top": 769,
 									"width": 226.37255859375,
-									"height": 53
+									"height": 68
 								},
 								{
 									"_type": "UMLOperationCompartmentView",
@@ -779,6 +847,40 @@
 									"subViews": [
 										{
 											"_type": "UMLOperationView",
+											"_id": "AAAAAAFxIW546c/ctLc=",
+											"_parent": {
+												"$ref": "AAAAAAFwSFgWOvwmTRw="
+											},
+											"model": {
+												"$ref": "AAAAAAFxIW54ws/ZSjc="
+											},
+											"font": "Arial;13;0",
+											"left": 517,
+											"top": 842,
+											"width": 216.37255859375,
+											"height": 13,
+											"text": "+void setUserId(String userId)",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAFxIW4jSc2YzAs=",
+											"_parent": {
+												"$ref": "AAAAAAFwSFgWOvwmTRw="
+											},
+											"model": {
+												"$ref": "AAAAAAFxIW4jG82VVdo="
+											},
+											"font": "Arial;13;0",
+											"left": 517,
+											"top": 857,
+											"width": 216.37255859375,
+											"height": 13,
+											"text": "+String getUserId()",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
 											"_id": "AAAAAAFwSFnUjPxvrz0=",
 											"_parent": {
 												"$ref": "AAAAAAFwSFgWOvwmTRw="
@@ -788,7 +890,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 517,
-											"top": 827,
+											"top": 872,
 											"width": 216.37255859375,
 											"height": 13,
 											"text": "+String getNickName()",
@@ -805,7 +907,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 517,
-											"top": 842,
+											"top": 887,
 											"width": 216.37255859375,
 											"height": 13,
 											"text": "+void setNickName(String nickName)",
@@ -822,7 +924,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 517,
-											"top": 857,
+											"top": 902,
 											"width": 216.37255859375,
 											"height": 13,
 											"text": "+String getPassword()",
@@ -839,7 +941,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 517,
-											"top": 872,
+											"top": 917,
 											"width": 216.37255859375,
 											"height": 13,
 											"text": "+void setPassword(String password)",
@@ -856,7 +958,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 517,
-											"top": 887,
+											"top": 932,
 											"width": 216.37255859375,
 											"height": 13,
 											"text": "+String getEmail()",
@@ -873,7 +975,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 517,
-											"top": 902,
+											"top": 947,
 											"width": 216.37255859375,
 											"height": 13,
 											"text": "+void setEmail(String email)",
@@ -882,9 +984,9 @@
 									],
 									"font": "Arial;13;0",
 									"left": 512,
-									"top": 822,
+									"top": 837,
 									"width": 226.37255859375,
-									"height": 98
+									"height": 128
 								},
 								{
 									"_type": "UMLReceptionCompartmentView",
@@ -924,7 +1026,7 @@
 							"left": 512,
 							"top": 744,
 							"width": 226.37255859375,
-							"height": 185,
+							"height": 221,
 							"nameCompartment": {
 								"$ref": "AAAAAAFwSFgWOvwgHVI="
 							},
@@ -1044,6 +1146,23 @@
 									"subViews": [
 										{
 											"_type": "UMLAttributeView",
+											"_id": "AAAAAAFxIXGofNoAI3A=",
+											"_parent": {
+												"$ref": "AAAAAAFwSF1c4/zGcDg="
+											},
+											"model": {
+												"$ref": "AAAAAAFxIXGoPNn9lNM="
+											},
+											"font": "Arial;13;0",
+											"left": 37,
+											"top": 150,
+											"width": 272.7587890625,
+											"height": 13,
+											"text": "+String routePointId",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
 											"_id": "AAAAAAFwSGGoB/1Hexs=",
 											"_parent": {
 												"$ref": "AAAAAAFwSF1c4/zGcDg="
@@ -1053,7 +1172,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 37,
-											"top": 150,
+											"top": 165,
 											"width": 272.7587890625,
 											"height": 13,
 											"text": "+int secuencePriority",
@@ -1070,10 +1189,10 @@
 											},
 											"font": "Arial;13;0",
 											"left": 37,
-											"top": 165,
+											"top": 180,
 											"width": 272.7587890625,
 											"height": 13,
-											"text": "+int routeId",
+											"text": "+String routeId",
 											"horizontalAlignment": 0
 										},
 										{
@@ -1087,7 +1206,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 37,
-											"top": 180,
+											"top": 195,
 											"width": 272.7587890625,
 											"height": 13,
 											"text": "+ClsCoordinate coordinate",
@@ -1098,7 +1217,7 @@
 									"left": 32,
 									"top": 145,
 									"width": 282.7587890625,
-									"height": 53
+									"height": 68
 								},
 								{
 									"_type": "UMLOperationCompartmentView",
@@ -1112,6 +1231,40 @@
 									"subViews": [
 										{
 											"_type": "UMLOperationView",
+											"_id": "AAAAAAFxIXH+BdwCVAY=",
+											"_parent": {
+												"$ref": "AAAAAAFwSF1c4/zHOeE="
+											},
+											"model": {
+												"$ref": "AAAAAAFxIXH929v/hpk="
+											},
+											"font": "Arial;13;0",
+											"left": 37,
+											"top": 218,
+											"width": 272.7587890625,
+											"height": 13,
+											"text": "+String getRoutePointId()",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAFxIXJQ095GFLE=",
+											"_parent": {
+												"$ref": "AAAAAAFwSF1c4/zHOeE="
+											},
+											"model": {
+												"$ref": "AAAAAAFxIXJQq95Dtms="
+											},
+											"font": "Arial;13;0",
+											"left": 37,
+											"top": 233,
+											"width": 272.7587890625,
+											"height": 13,
+											"text": "+void setRoutePointId(String routePointId)",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
 											"_id": "AAAAAAFwSGu8vK/KFkE=",
 											"_parent": {
 												"$ref": "AAAAAAFwSF1c4/zHOeE="
@@ -1121,7 +1274,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 37,
-											"top": 203,
+											"top": 248,
 											"width": 272.7587890625,
 											"height": 13,
 											"text": "+int getSecuencePriority()",
@@ -1138,7 +1291,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 37,
-											"top": 218,
+											"top": 263,
 											"width": 272.7587890625,
 											"height": 13,
 											"text": "+void setSecuencePriority(int secuencePriority)",
@@ -1155,10 +1308,10 @@
 											},
 											"font": "Arial;13;0",
 											"left": 37,
-											"top": 233,
+											"top": 278,
 											"width": 272.7587890625,
 											"height": 13,
-											"text": "+int getRouteId()",
+											"text": "+String getRouteId()",
 											"horizontalAlignment": 0
 										},
 										{
@@ -1172,10 +1325,10 @@
 											},
 											"font": "Arial;13;0",
 											"left": 37,
-											"top": 248,
+											"top": 293,
 											"width": 272.7587890625,
 											"height": 13,
-											"text": "+void setRouteId(int routeId)",
+											"text": "+void setRouteId(String routeId)",
 											"horizontalAlignment": 0
 										},
 										{
@@ -1189,7 +1342,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 37,
-											"top": 263,
+											"top": 308,
 											"width": 272.7587890625,
 											"height": 13,
 											"text": "+ClsCoordinate getCoordinate()",
@@ -1206,7 +1359,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 37,
-											"top": 278,
+											"top": 323,
 											"width": 272.7587890625,
 											"height": 13,
 											"text": "+void setCoordinate(ClsCoordinate coordinate)",
@@ -1215,9 +1368,9 @@
 									],
 									"font": "Arial;13;0",
 									"left": 32,
-									"top": 198,
+									"top": 213,
 									"width": 282.7587890625,
-									"height": 98
+									"height": 128
 								},
 								{
 									"_type": "UMLReceptionCompartmentView",
@@ -1257,7 +1410,7 @@
 							"left": 32,
 							"top": 120,
 							"width": 282.7587890625,
-							"height": 176,
+							"height": 221,
 							"nameCompartment": {
 								"$ref": "AAAAAAFwSF1c4/zBAcs="
 							},
@@ -1671,7 +1824,7 @@
 											"top": 486,
 											"width": 271.26708984375,
 											"height": 13,
-											"text": "+int id",
+											"text": "+int routeId",
 											"horizontalAlignment": 0
 										},
 										{
@@ -1693,23 +1846,6 @@
 										},
 										{
 											"_type": "UMLAttributeView",
-											"_id": "AAAAAAFwSG4S1LA7E1g=",
-											"_parent": {
-												"$ref": "AAAAAAFwSG3kebAPtX4="
-											},
-											"model": {
-												"$ref": "AAAAAAFwSG4SubA4O/Y="
-											},
-											"font": "Arial;13;0",
-											"left": 37,
-											"top": 516,
-											"width": 271.26708984375,
-											"height": 13,
-											"text": "+String description",
-											"horizontalAlignment": 0
-										},
-										{
-											"_type": "UMLAttributeView",
 											"_id": "AAAAAAFwSG5YsrBCfZA=",
 											"_parent": {
 												"$ref": "AAAAAAFwSG3kebAPtX4="
@@ -1719,7 +1855,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 37,
-											"top": 531,
+											"top": 516,
 											"width": 271.26708984375,
 											"height": 13,
 											"text": "+boolean favourite",
@@ -1736,7 +1872,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 37,
-											"top": 546,
+											"top": 531,
 											"width": 271.26708984375,
 											"height": 13,
 											"text": "+Date dateOfCreation",
@@ -1753,10 +1889,10 @@
 											},
 											"font": "Arial;13;0",
 											"left": 37,
-											"top": 561,
+											"top": 546,
 											"width": 271.26708984375,
 											"height": 13,
-											"text": "+ClsUser user",
+											"text": "+String userEmail",
 											"horizontalAlignment": 0
 										}
 									],
@@ -1764,7 +1900,7 @@
 									"left": 32,
 									"top": 481,
 									"width": 281.26708984375,
-									"height": 98
+									"height": 83
 								},
 								{
 									"_type": "UMLOperationCompartmentView",
@@ -1787,10 +1923,10 @@
 											},
 											"font": "Arial;13;0",
 											"left": 37,
-											"top": 584,
+											"top": 569,
 											"width": 271.26708984375,
 											"height": 13,
-											"text": "+String getId()",
+											"text": "+String getRouteId()",
 											"horizontalAlignment": 0
 										},
 										{
@@ -1804,10 +1940,10 @@
 											},
 											"font": "Arial;13;0",
 											"left": 37,
-											"top": 599,
+											"top": 584,
 											"width": 271.26708984375,
 											"height": 13,
-											"text": "+void setId()",
+											"text": "+void setRouteId()",
 											"horizontalAlignment": 0
 										},
 										{
@@ -1821,7 +1957,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 37,
-											"top": 614,
+											"top": 599,
 											"width": 271.26708984375,
 											"height": 13,
 											"text": "+String getName()",
@@ -1838,44 +1974,10 @@
 											},
 											"font": "Arial;13;0",
 											"left": 37,
-											"top": 629,
+											"top": 614,
 											"width": 271.26708984375,
 											"height": 13,
 											"text": "+void setName(String name)",
-											"horizontalAlignment": 0
-										},
-										{
-											"_type": "UMLOperationView",
-											"_id": "AAAAAAFwSHCVQrB6BHY=",
-											"_parent": {
-												"$ref": "AAAAAAFwSG3kebAQKAQ="
-											},
-											"model": {
-												"$ref": "AAAAAAFwSHCVI7B3UWc="
-											},
-											"font": "Arial;13;0",
-											"left": 37,
-											"top": 644,
-											"width": 271.26708984375,
-											"height": 13,
-											"text": "+String getDescription()",
-											"horizontalAlignment": 0
-										},
-										{
-											"_type": "UMLOperationView",
-											"_id": "AAAAAAFwSHC3rrCBv5M=",
-											"_parent": {
-												"$ref": "AAAAAAFwSG3kebAQKAQ="
-											},
-											"model": {
-												"$ref": "AAAAAAFwSHC3krB+Ra4="
-											},
-											"font": "Arial;13;0",
-											"left": 37,
-											"top": 659,
-											"width": 271.26708984375,
-											"height": 13,
-											"text": "+void setDescription(String description)",
 											"horizontalAlignment": 0
 										},
 										{
@@ -1889,7 +1991,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 37,
-											"top": 674,
+											"top": 629,
 											"width": 271.26708984375,
 											"height": 13,
 											"text": "+boolean getFavourite()",
@@ -1906,7 +2008,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 37,
-											"top": 689,
+											"top": 644,
 											"width": 271.26708984375,
 											"height": 13,
 											"text": "+void setFavourite(boolean favourite)",
@@ -1923,7 +2025,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 37,
-											"top": 704,
+											"top": 659,
 											"width": 271.26708984375,
 											"height": 13,
 											"text": "+Date getDateOfCreation()",
@@ -1940,7 +2042,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 37,
-											"top": 719,
+											"top": 674,
 											"width": 271.26708984375,
 											"height": 13,
 											"text": "+void setDateOfCreation(Date dateOfCreation)",
@@ -1957,10 +2059,10 @@
 											},
 											"font": "Arial;13;0",
 											"left": 37,
-											"top": 734,
+											"top": 689,
 											"width": 271.26708984375,
 											"height": 13,
-											"text": "+ClsUser getUser()",
+											"text": "+String getUserEmail()",
 											"horizontalAlignment": 0
 										},
 										{
@@ -1974,18 +2076,18 @@
 											},
 											"font": "Arial;13;0",
 											"left": 37,
-											"top": 749,
+											"top": 704,
 											"width": 271.26708984375,
 											"height": 13,
-											"text": "+void setUser(Clsuser user)",
+											"text": "+void setUserEmail(String userEmail)",
 											"horizontalAlignment": 0
 										}
 									],
 									"font": "Arial;13;0",
 									"left": 32,
-									"top": 579,
+									"top": 564,
 									"width": 281.26708984375,
-									"height": 188
+									"height": 158
 								},
 								{
 									"_type": "UMLReceptionCompartmentView",
@@ -2025,7 +2127,7 @@
 							"left": 32,
 							"top": 456,
 							"width": 281.26708984375,
-							"height": 311,
+							"height": 273,
 							"nameCompartment": {
 								"$ref": "AAAAAAFwSG3kebAKO5U="
 							},
@@ -2323,7 +2425,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 191,
-									"top": 785,
+									"top": 747,
 									"height": 13,
 									"alpha": 0.5235987755982988,
 									"distance": 30,
@@ -2344,7 +2446,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 204,
-									"top": 788,
+									"top": 750,
 									"height": 13,
 									"alpha": 0.7853981633974483,
 									"distance": 40,
@@ -2364,7 +2466,7 @@
 									},
 									"font": "Arial;13;0",
 									"left": 152,
-									"top": 781,
+									"top": 743,
 									"width": 22,
 									"height": 13,
 									"alpha": -0.5235987755982988,
@@ -2473,7 +2575,7 @@
 								"$ref": "AAAAAAFwSG3keLAJ3xI="
 							},
 							"lineStyle": 2,
-							"points": "176:766;176:884;512:884",
+							"points": "176:728;176:884;512:884",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAFwSIrkAbYARAo="
@@ -2530,7 +2632,7 @@
 									},
 									"font": "Arial;13;0",
 									"left": 124,
-									"top": 368,
+									"top": 391,
 									"width": 66.853515625,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -2553,7 +2655,7 @@
 									"visible": null,
 									"font": "Arial;13;0",
 									"left": 142,
-									"top": 368,
+									"top": 391,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -2574,7 +2676,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 186,
-									"top": 369,
+									"top": 392,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -2659,7 +2761,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 157,
-									"top": 314,
+									"top": 359,
 									"height": 13,
 									"alpha": -0.5235987755982988,
 									"distance": 30,
@@ -2679,7 +2781,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 143,
-									"top": 317,
+									"top": 362,
 									"height": 13,
 									"alpha": -0.7853981633974483,
 									"distance": 40,
@@ -2698,7 +2800,7 @@
 									},
 									"font": "Arial;13;0",
 									"left": 173,
-									"top": 310,
+									"top": 355,
 									"width": 22,
 									"height": 13,
 									"alpha": 0.5235987755982988,
@@ -2745,7 +2847,7 @@
 								"$ref": "AAAAAAFwSG3keLAJ3xI="
 							},
 							"lineStyle": 2,
-							"points": "172:456;172:295",
+							"points": "172:456;172:340",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAFwSIxuM7cZPgE="
@@ -3139,7 +3241,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 899,
-									"top": 731,
+									"top": 776,
 									"height": 13,
 									"alpha": 0.5235987755982988,
 									"distance": 30,
@@ -3160,7 +3262,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 912,
-									"top": 734,
+									"top": 779,
 									"height": 13,
 									"alpha": 0.7853981633974483,
 									"distance": 40,
@@ -3180,7 +3282,7 @@
 									},
 									"font": "Arial;13;0",
 									"left": 860,
-									"top": 727,
+									"top": 772,
 									"width": 22,
 									"height": 13,
 									"alpha": -0.5235987755982988,
@@ -3289,7 +3391,7 @@
 								"$ref": "AAAAAAFwSEFwpPv1+lo="
 							},
 							"lineStyle": 2,
-							"points": "884:712;884:789;737:789",
+							"points": "884:757;884:789;737:789",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAFwV3L+1/Cafh8="
@@ -4613,8 +4715,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFwSEFwo/vzwac="
 							},
-							"name": "int id",
-							"type": ""
+							"name": "String localizationPointId"
 						},
 						{
 							"_type": "UMLAttribute",
@@ -4658,8 +4759,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFwSEFwo/vzwac="
 							},
-							"name": "boolean favourite",
-							"type": ""
+							"name": "boolean shared"
 						},
 						{
 							"_type": "UMLAttribute",
@@ -4676,8 +4776,15 @@
 							"_parent": {
 								"$ref": "AAAAAAFwSEFwo/vzwac="
 							},
-							"name": "ClsUser userPropietary",
-							"type": ""
+							"name": "String emailCreator"
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAFxIXeU8OjKxuo=",
+							"_parent": {
+								"$ref": "AAAAAAFwSEFwo/vzwac="
+							},
+							"name": "String index"
 						}
 					],
 					"operations": [
@@ -4687,7 +4794,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFwSEFwo/vzwac="
 							},
-							"name": "int getId"
+							"name": "String getLocalizationPointId"
 						},
 						{
 							"_type": "UMLOperation",
@@ -4695,7 +4802,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFwSEFwo/vzwac="
 							},
-							"name": "void setId",
+							"name": "void setLocalizationPointId",
 							"parameters": [
 								{
 									"_type": "UMLParameter",
@@ -4703,8 +4810,7 @@
 									"_parent": {
 										"$ref": "AAAAAAFwfHd7FWg1gIo="
 									},
-									"name": "int id",
-									"type": ""
+									"name": "String id"
 								}
 							]
 						},
@@ -4811,7 +4917,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFwSEFwo/vzwac="
 							},
-							"name": "boolean getFavourite"
+							"name": "boolean getShared"
 						},
 						{
 							"_type": "UMLOperation",
@@ -4819,7 +4925,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFwSEFwo/vzwac="
 							},
-							"name": "void setFavourite",
+							"name": "void setShared",
 							"parameters": [
 								{
 									"_type": "UMLParameter",
@@ -4827,8 +4933,7 @@
 									"_parent": {
 										"$ref": "AAAAAAFwSHv6u7FOD5Y="
 									},
-									"name": "boolean favourite",
-									"type": ""
+									"name": "boolean shared"
 								}
 							]
 						},
@@ -4865,7 +4970,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFwSEFwo/vzwac="
 							},
-							"name": "String getUserPropietary"
+							"name": "String getEmailCreator"
 						},
 						{
 							"_type": "UMLOperation",
@@ -4873,7 +4978,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFwSEFwo/vzwac="
 							},
-							"name": "void setUserPropietary",
+							"name": "void setEmailCreator",
 							"parameters": [
 								{
 									"_type": "UMLParameter",
@@ -4881,7 +4986,33 @@
 									"_parent": {
 										"$ref": "AAAAAAFwfHGXJFlBWSo="
 									},
-									"name": "String userPropietary",
+									"name": "String emailCreator"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAFxIXfJe+ni1tM=",
+							"_parent": {
+								"$ref": "AAAAAAFwSEFwo/vzwac="
+							},
+							"name": "String getIndex"
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAFxIXfyW+q7FTA=",
+							"_parent": {
+								"$ref": "AAAAAAFwSEFwo/vzwac="
+							},
+							"name": "void setIndex",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFxIXgZn+srbmo=",
+									"_parent": {
+										"$ref": "AAAAAAFxIXfyW+q7FTA="
+									},
+									"name": "String index",
 									"type": ""
 								}
 							]
@@ -4993,6 +5124,14 @@
 					"attributes": [
 						{
 							"_type": "UMLAttribute",
+							"_id": "AAAAAAFxIW2tgsuSvGo=",
+							"_parent": {
+								"$ref": "AAAAAAFwSFgWOfwdjqA="
+							},
+							"name": "String userId"
+						},
+						{
+							"_type": "UMLAttribute",
 							"_id": "AAAAAAFwSFhLsvxHCc0=",
 							"_parent": {
 								"$ref": "AAAAAAFwSFgWOfwdjqA="
@@ -5020,6 +5159,33 @@
 						}
 					],
 					"operations": [
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAFxIW54ws/ZSjc=",
+							"_parent": {
+								"$ref": "AAAAAAFwSFgWOfwdjqA="
+							},
+							"name": "void setUserId",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFxIW7QttBJSFI=",
+									"_parent": {
+										"$ref": "AAAAAAFxIW54ws/ZSjc="
+									},
+									"name": "String userId",
+									"type": ""
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAFxIW4jG82VVdo=",
+							"_parent": {
+								"$ref": "AAAAAAFwSFgWOfwdjqA="
+							},
+							"name": "String getUserId"
+						},
 						{
 							"_type": "UMLOperation",
 							"_id": "AAAAAAFwSFnUXfxsOIQ=",
@@ -5182,6 +5348,14 @@
 					"attributes": [
 						{
 							"_type": "UMLAttribute",
+							"_id": "AAAAAAFxIXGoPNn9lNM=",
+							"_parent": {
+								"$ref": "AAAAAAFwSF1c4vy+CHY="
+							},
+							"name": "String routePointId"
+						},
+						{
+							"_type": "UMLAttribute",
 							"_id": "AAAAAAFwSGGn1f1EGps=",
 							"_parent": {
 								"$ref": "AAAAAAFwSF1c4vy+CHY="
@@ -5195,8 +5369,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFwSF1c4vy+CHY="
 							},
-							"name": "int routeId",
-							"type": ""
+							"name": "String routeId"
 						},
 						{
 							"_type": "UMLAttribute",
@@ -5209,6 +5382,33 @@
 						}
 					],
 					"operations": [
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAFxIXH929v/hpk=",
+							"_parent": {
+								"$ref": "AAAAAAFwSF1c4vy+CHY="
+							},
+							"name": "String getRoutePointId"
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAFxIXJQq95Dtms=",
+							"_parent": {
+								"$ref": "AAAAAAFwSF1c4vy+CHY="
+							},
+							"name": "void setRoutePointId",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFxIXKhuN6z+eA=",
+									"_parent": {
+										"$ref": "AAAAAAFxIXJQq95Dtms="
+									},
+									"name": "String routePointId",
+									"type": ""
+								}
+							]
+						},
 						{
 							"_type": "UMLOperation",
 							"_id": "AAAAAAFwSGu8ja/HOY4=",
@@ -5242,7 +5442,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFwSF1c4vy+CHY="
 							},
-							"name": "int getRouteId"
+							"name": "String getRouteId"
 						},
 						{
 							"_type": "UMLOperation",
@@ -5258,8 +5458,7 @@
 									"_parent": {
 										"$ref": "AAAAAAFwSGyN6a/hcIw="
 									},
-									"name": "int routeId",
-									"type": ""
+									"name": "String routeId"
 								}
 							]
 						},
@@ -5422,8 +5621,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFwSG3keLAHdVw="
 							},
-							"name": "int id",
-							"type": ""
+							"name": "int routeId"
 						},
 						{
 							"_type": "UMLAttribute",
@@ -5432,15 +5630,6 @@
 								"$ref": "AAAAAAFwSG3keLAHdVw="
 							},
 							"name": "String name",
-							"type": ""
-						},
-						{
-							"_type": "UMLAttribute",
-							"_id": "AAAAAAFwSG4SubA4O/Y=",
-							"_parent": {
-								"$ref": "AAAAAAFwSG3keLAHdVw="
-							},
-							"name": "String description",
 							"type": ""
 						},
 						{
@@ -5467,8 +5656,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFwSG3keLAHdVw="
 							},
-							"name": "ClsUser user",
-							"type": ""
+							"name": "String userEmail"
 						}
 					],
 					"operations": [
@@ -5478,7 +5666,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFwSG3keLAHdVw="
 							},
-							"name": "String getId"
+							"name": "String getRouteId"
 						},
 						{
 							"_type": "UMLOperation",
@@ -5486,7 +5674,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFwSG3keLAHdVw="
 							},
-							"name": "void setId"
+							"name": "void setRouteId"
 						},
 						{
 							"_type": "UMLOperation",
@@ -5511,33 +5699,6 @@
 										"$ref": "AAAAAAFwSHByWrBu3Qc="
 									},
 									"name": "String name",
-									"type": ""
-								}
-							]
-						},
-						{
-							"_type": "UMLOperation",
-							"_id": "AAAAAAFwSHCVI7B3UWc=",
-							"_parent": {
-								"$ref": "AAAAAAFwSG3keLAHdVw="
-							},
-							"name": "String getDescription"
-						},
-						{
-							"_type": "UMLOperation",
-							"_id": "AAAAAAFwSHC3krB+Ra4=",
-							"_parent": {
-								"$ref": "AAAAAAFwSG3keLAHdVw="
-							},
-							"name": "void setDescription",
-							"parameters": [
-								{
-									"_type": "UMLParameter",
-									"_id": "AAAAAAFwSHDhZrCFXw4=",
-									"_parent": {
-										"$ref": "AAAAAAFwSHC3krB+Ra4="
-									},
-									"name": "String description",
 									"type": ""
 								}
 							]
@@ -5602,7 +5763,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFwSG3keLAHdVw="
 							},
-							"name": "ClsUser getUser"
+							"name": "String getUserEmail"
 						},
 						{
 							"_type": "UMLOperation",
@@ -5610,7 +5771,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFwSG3keLAHdVw="
 							},
-							"name": "void setUser",
+							"name": "void setUserEmail",
 							"parameters": [
 								{
 									"_type": "UMLParameter",
@@ -5618,8 +5779,7 @@
 									"_parent": {
 										"$ref": "AAAAAAFwSIqe87W2qlc="
 									},
-									"name": "Clsuser user",
-									"type": ""
+									"name": "String userEmail"
 								}
 							]
 						}
