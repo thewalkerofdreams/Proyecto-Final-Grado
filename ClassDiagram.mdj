@@ -237,7 +237,7 @@
 											"top": 432,
 											"width": 478.69580078125,
 											"height": 13,
-											"text": "+Date dateOfCreation",
+											"text": "+Long dateOfCreation",
 											"horizontalAlignment": 0
 										},
 										{
@@ -509,7 +509,7 @@
 											"top": 665,
 											"width": 478.69580078125,
 											"height": 13,
-											"text": "+Date getDateOfCreation()",
+											"text": "+Long getDateOfCreation()",
 											"horizontalAlignment": 0
 										},
 										{
@@ -526,7 +526,7 @@
 											"top": 680,
 											"width": 478.69580078125,
 											"height": 13,
-											"text": "+void setDateOfCreation(Date dateOfCreation)",
+											"text": "+void setDateOfCreation(Long dateOfCreation)",
 											"horizontalAlignment": 0
 										},
 										{
@@ -1175,7 +1175,7 @@
 											"top": 165,
 											"width": 272.7587890625,
 											"height": 13,
-											"text": "+int secuencePriority",
+											"text": "+Long priorityRoute",
 											"horizontalAlignment": 0
 										},
 										{
@@ -1277,7 +1277,7 @@
 											"top": 248,
 											"width": 272.7587890625,
 											"height": 13,
-											"text": "+int getSecuencePriority()",
+											"text": "+Long getPriorityRoute()",
 											"horizontalAlignment": 0
 										},
 										{
@@ -1294,7 +1294,7 @@
 											"top": 263,
 											"width": 272.7587890625,
 											"height": 13,
-											"text": "+void setSecuencePriority(int secuencePriority)",
+											"text": "+void setPriorityRoute(Long priorityRoute)",
 											"horizontalAlignment": 0
 										},
 										{
@@ -1750,7 +1750,7 @@
 											"font": "Arial;13;1",
 											"left": 37,
 											"top": 463,
-											"width": 271.26708984375,
+											"width": 272.06689453125,
 											"height": 13,
 											"text": "ClsRoute"
 										},
@@ -1785,7 +1785,7 @@
 									"font": "Arial;13;0",
 									"left": 32,
 									"top": 456,
-									"width": 281.26708984375,
+									"width": 282.06689453125,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAFwSG3kebALzYA="
@@ -1822,9 +1822,9 @@
 											"font": "Arial;13;0",
 											"left": 37,
 											"top": 486,
-											"width": 271.26708984375,
+											"width": 272.06689453125,
 											"height": 13,
-											"text": "+int routeId",
+											"text": "+String routeId",
 											"horizontalAlignment": 0
 										},
 										{
@@ -1839,7 +1839,7 @@
 											"font": "Arial;13;0",
 											"left": 37,
 											"top": 501,
-											"width": 271.26708984375,
+											"width": 272.06689453125,
 											"height": 13,
 											"text": "+String name",
 											"horizontalAlignment": 0
@@ -1856,7 +1856,7 @@
 											"font": "Arial;13;0",
 											"left": 37,
 											"top": 516,
-											"width": 271.26708984375,
+											"width": 272.06689453125,
 											"height": 13,
 											"text": "+boolean favourite",
 											"horizontalAlignment": 0
@@ -1873,9 +1873,9 @@
 											"font": "Arial;13;0",
 											"left": 37,
 											"top": 531,
-											"width": 271.26708984375,
+											"width": 272.06689453125,
 											"height": 13,
-											"text": "+Date dateOfCreation",
+											"text": "+Long dateOfCreation",
 											"horizontalAlignment": 0
 										},
 										{
@@ -1890,7 +1890,7 @@
 											"font": "Arial;13;0",
 											"left": 37,
 											"top": 546,
-											"width": 271.26708984375,
+											"width": 272.06689453125,
 											"height": 13,
 											"text": "+String userEmail",
 											"horizontalAlignment": 0
@@ -1899,7 +1899,7 @@
 									"font": "Arial;13;0",
 									"left": 32,
 									"top": 481,
-									"width": 281.26708984375,
+									"width": 282.06689453125,
 									"height": 83
 								},
 								{
@@ -1924,7 +1924,7 @@
 											"font": "Arial;13;0",
 											"left": 37,
 											"top": 569,
-											"width": 271.26708984375,
+											"width": 272.06689453125,
 											"height": 13,
 											"text": "+String getRouteId()",
 											"horizontalAlignment": 0
@@ -1941,9 +1941,9 @@
 											"font": "Arial;13;0",
 											"left": 37,
 											"top": 584,
-											"width": 271.26708984375,
+											"width": 272.06689453125,
 											"height": 13,
-											"text": "+void setRouteId()",
+											"text": "+void setRouteId(String routeId)",
 											"horizontalAlignment": 0
 										},
 										{
@@ -1958,7 +1958,7 @@
 											"font": "Arial;13;0",
 											"left": 37,
 											"top": 599,
-											"width": 271.26708984375,
+											"width": 272.06689453125,
 											"height": 13,
 											"text": "+String getName()",
 											"horizontalAlignment": 0
@@ -1975,7 +1975,7 @@
 											"font": "Arial;13;0",
 											"left": 37,
 											"top": 614,
-											"width": 271.26708984375,
+											"width": 272.06689453125,
 											"height": 13,
 											"text": "+void setName(String name)",
 											"horizontalAlignment": 0
@@ -1992,7 +1992,7 @@
 											"font": "Arial;13;0",
 											"left": 37,
 											"top": 629,
-											"width": 271.26708984375,
+											"width": 272.06689453125,
 											"height": 13,
 											"text": "+boolean getFavourite()",
 											"horizontalAlignment": 0
@@ -2009,7 +2009,7 @@
 											"font": "Arial;13;0",
 											"left": 37,
 											"top": 644,
-											"width": 271.26708984375,
+											"width": 272.06689453125,
 											"height": 13,
 											"text": "+void setFavourite(boolean favourite)",
 											"horizontalAlignment": 0
@@ -2026,9 +2026,9 @@
 											"font": "Arial;13;0",
 											"left": 37,
 											"top": 659,
-											"width": 271.26708984375,
+											"width": 272.06689453125,
 											"height": 13,
-											"text": "+Date getDateOfCreation()",
+											"text": "+Long getDateOfCreation()",
 											"horizontalAlignment": 0
 										},
 										{
@@ -2043,9 +2043,9 @@
 											"font": "Arial;13;0",
 											"left": 37,
 											"top": 674,
-											"width": 271.26708984375,
+											"width": 272.06689453125,
 											"height": 13,
-											"text": "+void setDateOfCreation(Date dateOfCreation)",
+											"text": "+void setDateOfCreation(Long dateOfCreation)",
 											"horizontalAlignment": 0
 										},
 										{
@@ -2060,7 +2060,7 @@
 											"font": "Arial;13;0",
 											"left": 37,
 											"top": 689,
-											"width": 271.26708984375,
+											"width": 272.06689453125,
 											"height": 13,
 											"text": "+String getUserEmail()",
 											"horizontalAlignment": 0
@@ -2077,7 +2077,7 @@
 											"font": "Arial;13;0",
 											"left": 37,
 											"top": 704,
-											"width": 271.26708984375,
+											"width": 272.06689453125,
 											"height": 13,
 											"text": "+void setUserEmail(String userEmail)",
 											"horizontalAlignment": 0
@@ -2086,7 +2086,7 @@
 									"font": "Arial;13;0",
 									"left": 32,
 									"top": 564,
-									"width": 281.26708984375,
+									"width": 282.06689453125,
 									"height": 158
 								},
 								{
@@ -2126,7 +2126,7 @@
 							"containerChangeable": true,
 							"left": 32,
 							"top": 456,
-							"width": 281.26708984375,
+							"width": 282.06689453125,
 							"height": 273,
 							"nameCompartment": {
 								"$ref": "AAAAAAFwSG3kebAKO5U="
@@ -4012,7 +4012,7 @@
 											"font": "Arial;13;1",
 											"left": 413,
 											"top": 431,
-											"width": 295,
+											"width": 312.53955078125,
 											"height": 13,
 											"text": "ClsImageLocalizationPoint"
 										},
@@ -4047,7 +4047,7 @@
 									"font": "Arial;13;0",
 									"left": 408,
 									"top": 424,
-									"width": 305,
+									"width": 322.53955078125,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAFwfHH90VsiObc="
@@ -4084,9 +4084,9 @@
 											"font": "Arial;13;0",
 											"left": 413,
 											"top": 454,
-											"width": 295,
+											"width": 312.53955078125,
 											"height": 13,
-											"text": "+int id",
+											"text": "+String id",
 											"horizontalAlignment": 0
 										},
 										{
@@ -4101,7 +4101,7 @@
 											"font": "Arial;13;0",
 											"left": 413,
 											"top": 469,
-											"width": 295,
+											"width": 312.53955078125,
 											"height": 13,
 											"text": "+Byte[] dataImage",
 											"horizontalAlignment": 0
@@ -4118,16 +4118,16 @@
 											"font": "Arial;13;0",
 											"left": 413,
 											"top": 484,
-											"width": 295,
+											"width": 312.53955078125,
 											"height": 13,
-											"text": "+int localizationPointId",
+											"text": "+String localizationPointId",
 											"horizontalAlignment": 0
 										}
 									],
 									"font": "Arial;13;0",
 									"left": 408,
 									"top": 449,
-									"width": 305,
+									"width": 322.53955078125,
 									"height": 53
 								},
 								{
@@ -4152,9 +4152,9 @@
 											"font": "Arial;13;0",
 											"left": 413,
 											"top": 507,
-											"width": 295,
+											"width": 312.53955078125,
 											"height": 13,
-											"text": "+int getId()",
+											"text": "+String getId()",
 											"horizontalAlignment": 0
 										},
 										{
@@ -4169,9 +4169,9 @@
 											"font": "Arial;13;0",
 											"left": 413,
 											"top": 522,
-											"width": 295,
+											"width": 312.53955078125,
 											"height": 13,
-											"text": "+void setId(int id)",
+											"text": "+void setId(String id)",
 											"horizontalAlignment": 0
 										},
 										{
@@ -4186,7 +4186,7 @@
 											"font": "Arial;13;0",
 											"left": 413,
 											"top": 537,
-											"width": 295,
+											"width": 312.53955078125,
 											"height": 13,
 											"text": "+Byte[] getDataImage()",
 											"horizontalAlignment": 0
@@ -4203,7 +4203,7 @@
 											"font": "Arial;13;0",
 											"left": 413,
 											"top": 552,
-											"width": 295,
+											"width": 312.53955078125,
 											"height": 13,
 											"text": "+void setDataImage(Byte[] dataImage)",
 											"horizontalAlignment": 0
@@ -4220,9 +4220,9 @@
 											"font": "Arial;13;0",
 											"left": 413,
 											"top": 567,
-											"width": 295,
+											"width": 312.53955078125,
 											"height": 13,
-											"text": "+int getLocalizationPointId()",
+											"text": "+String getLocalizationPointId()",
 											"horizontalAlignment": 0
 										},
 										{
@@ -4237,16 +4237,16 @@
 											"font": "Arial;13;0",
 											"left": 413,
 											"top": 582,
-											"width": 295,
+											"width": 312.53955078125,
 											"height": 13,
-											"text": "+void setLocalizationPointId(int localizationPointId)",
+											"text": "+void setLocalizationPointId(String localizationPointId)",
 											"horizontalAlignment": 0
 										}
 									],
 									"font": "Arial;13;0",
 									"left": 408,
 									"top": 502,
-									"width": 305,
+									"width": 322.53955078125,
 									"height": 98
 								},
 								{
@@ -4286,7 +4286,7 @@
 							"containerChangeable": true,
 							"left": 408,
 							"top": 424,
-							"width": 305,
+							"width": 322.53955078125,
 							"height": 176,
 							"nameCompartment": {
 								"$ref": "AAAAAAFwfHH90VshgjU="
@@ -4324,7 +4324,7 @@
 										"$ref": "AAAAAAFwfHhj4GxTZbY="
 									},
 									"font": "Arial;13;0",
-									"left": 747,
+									"left": 756,
 									"top": 552,
 									"width": 64,
 									"height": 13,
@@ -4347,7 +4347,7 @@
 									},
 									"visible": null,
 									"font": "Arial;13;0",
-									"left": 779,
+									"left": 788,
 									"top": 567,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -4368,7 +4368,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 780,
+									"left": 789,
 									"top": 522,
 									"height": 13,
 									"alpha": -1.5707963267948966,
@@ -4453,7 +4453,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 737,
+									"left": 755,
 									"top": 551,
 									"height": 13,
 									"alpha": -0.5235987755982988,
@@ -4473,7 +4473,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 740,
+									"left": 758,
 									"top": 565,
 									"height": 13,
 									"alpha": -0.7853981633974483,
@@ -4492,7 +4492,7 @@
 										"$ref": "AAAAAAFwfHhj4GxVM5g="
 									},
 									"font": "Arial;13;0",
-									"left": 722,
+									"left": 740,
 									"top": 524,
 									"width": 22,
 									"height": 13,
@@ -4539,7 +4539,7 @@
 							"tail": {
 								"$ref": "AAAAAAFwSEFwpPv1+lo="
 							},
-							"points": "848:543;712:543",
+							"points": "848:543;730:543",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAFwfHhj4WxYdsc="
@@ -4715,7 +4715,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFwSEFwo/vzwac="
 							},
-							"name": "String localizationPointId"
+							"name": "String localizationPointId",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -4759,7 +4760,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFwSEFwo/vzwac="
 							},
-							"name": "boolean shared"
+							"name": "boolean shared",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -4767,7 +4769,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFwSEFwo/vzwac="
 							},
-							"name": "Date dateOfCreation",
+							"name": "Long dateOfCreation",
 							"type": ""
 						},
 						{
@@ -4776,7 +4778,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFwSEFwo/vzwac="
 							},
-							"name": "String emailCreator"
+							"name": "String emailCreator",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -4784,7 +4787,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFwSEFwo/vzwac="
 							},
-							"name": "String index"
+							"name": "String index",
+							"type": ""
 						}
 					],
 					"operations": [
@@ -4810,7 +4814,8 @@
 									"_parent": {
 										"$ref": "AAAAAAFwfHd7FWg1gIo="
 									},
-									"name": "String id"
+									"name": "String id",
+									"type": ""
 								}
 							]
 						},
@@ -4933,7 +4938,8 @@
 									"_parent": {
 										"$ref": "AAAAAAFwSHv6u7FOD5Y="
 									},
-									"name": "boolean shared"
+									"name": "boolean shared",
+									"type": ""
 								}
 							]
 						},
@@ -4943,7 +4949,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFwSEFwo/vzwac="
 							},
-							"name": "Date getDateOfCreation"
+							"name": "Long getDateOfCreation"
 						},
 						{
 							"_type": "UMLOperation",
@@ -4959,7 +4965,7 @@
 									"_parent": {
 										"$ref": "AAAAAAFwSIM+47F/A7g="
 									},
-									"name": "Date dateOfCreation",
+									"name": "Long dateOfCreation",
 									"type": ""
 								}
 							]
@@ -4986,7 +4992,8 @@
 									"_parent": {
 										"$ref": "AAAAAAFwfHGXJFlBWSo="
 									},
-									"name": "String emailCreator"
+									"name": "String emailCreator",
+									"type": ""
 								}
 							]
 						},
@@ -5128,7 +5135,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFwSFgWOfwdjqA="
 							},
-							"name": "String userId"
+							"name": "String userId",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -5352,7 +5360,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFwSF1c4vy+CHY="
 							},
-							"name": "String routePointId"
+							"name": "String routePointId",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -5360,7 +5369,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFwSF1c4vy+CHY="
 							},
-							"name": "int secuencePriority",
+							"name": "Long priorityRoute",
 							"type": ""
 						},
 						{
@@ -5369,7 +5378,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFwSF1c4vy+CHY="
 							},
-							"name": "String routeId"
+							"name": "String routeId",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -5415,7 +5425,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFwSF1c4vy+CHY="
 							},
-							"name": "int getSecuencePriority"
+							"name": "Long getPriorityRoute"
 						},
 						{
 							"_type": "UMLOperation",
@@ -5423,7 +5433,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFwSF1c4vy+CHY="
 							},
-							"name": "void setSecuencePriority",
+							"name": "void setPriorityRoute",
 							"parameters": [
 								{
 									"_type": "UMLParameter",
@@ -5431,7 +5441,7 @@
 									"_parent": {
 										"$ref": "AAAAAAFwSGwA2a/O6TA="
 									},
-									"name": "int secuencePriority",
+									"name": "Long priorityRoute",
 									"type": ""
 								}
 							]
@@ -5458,7 +5468,8 @@
 									"_parent": {
 										"$ref": "AAAAAAFwSGyN6a/hcIw="
 									},
-									"name": "String routeId"
+									"name": "String routeId",
+									"type": ""
 								}
 							]
 						},
@@ -5621,7 +5632,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFwSG3keLAHdVw="
 							},
-							"name": "int routeId"
+							"name": "String routeId",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -5647,7 +5659,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFwSG3keLAHdVw="
 							},
-							"name": "Date dateOfCreation",
+							"name": "Long dateOfCreation",
 							"type": ""
 						},
 						{
@@ -5656,7 +5668,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFwSG3keLAHdVw="
 							},
-							"name": "String userEmail"
+							"name": "String userEmail",
+							"type": ""
 						}
 					],
 					"operations": [
@@ -5674,7 +5687,18 @@
 							"_parent": {
 								"$ref": "AAAAAAFwSG3keLAHdVw="
 							},
-							"name": "void setRouteId"
+							"name": "void setRouteId",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFx0A/GJ7BZ6xQ=",
+									"_parent": {
+										"$ref": "AAAAAAFwSG+MGbBVV3o="
+									},
+									"name": "String routeId",
+									"type": ""
+								}
+							]
 						},
 						{
 							"_type": "UMLOperation",
@@ -5736,7 +5760,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFwSG3keLAHdVw="
 							},
-							"name": "Date getDateOfCreation"
+							"name": "Long getDateOfCreation"
 						},
 						{
 							"_type": "UMLOperation",
@@ -5752,7 +5776,7 @@
 									"_parent": {
 										"$ref": "AAAAAAFwSHGYgLCesyo="
 									},
-									"name": "Date dateOfCreation",
+									"name": "Long dateOfCreation",
 									"type": ""
 								}
 							]
@@ -5779,7 +5803,8 @@
 									"_parent": {
 										"$ref": "AAAAAAFwSIqe87W2qlc="
 									},
-									"name": "String userEmail"
+									"name": "String userEmail",
+									"type": ""
 								}
 							]
 						}
@@ -5818,8 +5843,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFwfHH90FseM+0="
 							},
-							"name": "int id",
-							"type": ""
+							"name": "String id"
 						},
 						{
 							"_type": "UMLAttribute",
@@ -5836,8 +5860,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFwfHH90FseM+0="
 							},
-							"name": "int localizationPointId",
-							"type": ""
+							"name": "String localizationPointId"
 						}
 					],
 					"operations": [
@@ -5847,7 +5870,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFwfHH90FseM+0="
 							},
-							"name": "int getId"
+							"name": "String getId"
 						},
 						{
 							"_type": "UMLOperation",
@@ -5863,8 +5886,7 @@
 									"_parent": {
 										"$ref": "AAAAAAFwfHlSN29yOK0="
 									},
-									"name": "int id",
-									"type": ""
+									"name": "String id"
 								}
 							]
 						},
@@ -5901,7 +5923,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFwfHH90FseM+0="
 							},
-							"name": "int getLocalizationPointId"
+							"name": "String getLocalizationPointId"
 						},
 						{
 							"_type": "UMLOperation",
@@ -5917,8 +5939,7 @@
 									"_parent": {
 										"$ref": "AAAAAAFwfHpo9XR/3Iw="
 									},
-									"name": "int localizationPointId",
-									"type": ""
+									"name": "String localizationPointId"
 								}
 							]
 						}
